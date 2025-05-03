@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:trabalho_semestral_equipetango/pages/creditos_page.dart';
 
 class TreinamentoSustentavelPage extends StatelessWidget {
   @override
@@ -9,7 +10,7 @@ class TreinamentoSustentavelPage extends StatelessWidget {
           Container(
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('android/assets/images/background.png'),
+                image: AssetImage('assets/images/background.png'),
                 fit: BoxFit.cover,
               ),
             ),
@@ -64,7 +65,10 @@ class TreinamentoSustentavelPage extends StatelessWidget {
                           SizedBox(height: 30),
                           ElevatedButton(
                             onPressed: () {
-                              //Ação do botão
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(builder: (context) => CreditosPage()),
+                              );
                             },
                             style: ElevatedButton.styleFrom(
                               backgroundColor: Colors.green[700],
