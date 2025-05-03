@@ -87,6 +87,32 @@ class InicialPage extends StatelessWidget {
                               );
                             },
                           ),
+                          SizedBox(height: 20),
+                          ElevatedButton(
+                            onPressed: () {
+                              Navigator.pop(context); // volta para a tela anterior
+                            },
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.green[700],
+                              padding: EdgeInsets.symmetric(horizontal: 40, vertical: 12),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(15),
+                              ),
+                              elevation: 5,
+                            ),
+                            child: Row(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                Icon(Icons.arrow_back),
+                                SizedBox(width: 8),
+                                Text(
+                                  'VOLTAR',
+                                  style: TextStyle(fontSize: 16),
+                                ),
+                              ],
+                            ),
+                          ),
+                          SizedBox(height: 20),
                         ],
                       ),
                     ),
