@@ -40,12 +40,13 @@ class InicialPage extends StatelessWidget {
                 ),
                 SizedBox(height: 30),
                 Expanded(
+                  child: SingleChildScrollView(
                   child: Center(
                     child: Container(
                       width: 300,
-                      padding: EdgeInsets.symmetric(vertical: 30),
+                      padding: EdgeInsets.symmetric(vertical: 35),
                       decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(30),
+                        borderRadius: BorderRadius.circular(35),
                         gradient: LinearGradient(
                           colors: [Colors.blue.shade800, Colors.green.shade700],
                           begin: Alignment.topCenter,
@@ -116,6 +117,7 @@ class InicialPage extends StatelessWidget {
                         ],
                       ),
                     ),
+                  ),
                   ),
                 ),
               ],
