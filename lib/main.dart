@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:trabalho_semestral_equipetango/pages/entrada_page.dart';
 import 'package:trabalho_semestral_equipetango/pages/treinamento_sustentavel_page.dart';
 
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Treinamento Sustentável',
-      home: TreinamentoSustentavelPage(),
+      home: TelaTreinamento(),
       debugShowCheckedModeBanner: false,
     );
   }
