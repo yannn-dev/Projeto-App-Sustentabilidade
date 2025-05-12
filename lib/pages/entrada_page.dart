@@ -47,7 +47,7 @@ class TelaTreinamento extends StatelessWidget {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(16),
                       image: const DecorationImage(
-                        image: AssetImage('assets/images/Icon.png'),
+                        image: AssetImage('assets/images/icon.png'),
                         fit: BoxFit.cover,
                       ),
                     ),
