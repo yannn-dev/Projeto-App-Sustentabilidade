@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:trabalho_semestral_equipetango/pages/creditos_page.dart';
 import 'package:trabalho_semestral_equipetango/pages/inicial_page.dart';
 import 'package:trabalho_semestral_equipetango/pages/treinamento_sustentavel_page.dart';
 
@@ -93,7 +94,7 @@ class TelaTreinamento extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => TreinamentoSustentavelPage()),
+                      MaterialPageRoute(builder: (context) => CreditosPage()),
                     );// Ação do botão
                   },
                   style: ElevatedButton.styleFrom(

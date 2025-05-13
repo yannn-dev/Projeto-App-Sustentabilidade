@@ -71,8 +71,8 @@ class AmbientalPage extends StatelessWidget {
                             child: SingleChildScrollView(
                               child: Text(
                                 ' Esse pilar está relacionado ao cuidado com a natureza.\n A ideia é usar os recursos naturais (como água, árvores, solo e ar)\ncom responsabilidade,'
-                                    'sem destruir o meio ambiente.\nExemplos práticos:\nUsar energia limpa, como solar e eólica.\n Reduzir o uso de plásticos e reciclar o lixo.\n'
-                                    'Proteger florestas, rios e animais em extinção.\n Se o pilar ambiental falha, o planeta sofre: vem a poluição, falta de água potável,'
+                                    'sem destruir o meio ambiente.\nExemplos práticos:\n- Usar energia limpa, como solar e eólica.\n- Reduzir o uso de plásticos e reciclar o lixo.\n'
+                                    '- Proteger florestas, rios e animais em extinção.\n Se o pilar ambiental falha, o planeta sofre: vem a poluição, falta de água potável,'
                                     ' mudanças no clima e perda da biodiversidade.',
                                 textAlign: TextAlign.justify,
                                 style: TextStyle(

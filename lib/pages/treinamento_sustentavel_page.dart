@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:trabalho_semestral_equipetango/pages/creditos_page.dart';
+import 'package:trabalho_semestral_equipetango/pages/quiz_page.dart';
+import 'package:trabalho_semestral_equipetango/pages/inicial_page.dart';
 
 class TreinamentoSustentavelPage extends StatelessWidget {
   @override
@@ -67,7 +68,7 @@ class TreinamentoSustentavelPage extends StatelessWidget {
                             onPressed: () {
                               Navigator.push(
                                   context,
-                                  MaterialPageRoute(builder: (context) => CreditosPage()),
+                                  MaterialPageRoute(builder: (context) => InicialPage()),
                               );
                             },
                             style: ElevatedButton.styleFrom(
@@ -81,7 +82,34 @@ class TreinamentoSustentavelPage extends StatelessWidget {
                               mainAxisSize: MainAxisSize.min,
                               children: [
                                 Text(
-                                  'CONTINUAR',
+                                  'CONTEÚDO',
+                                  style: TextStyle(fontSize: 18),
+                                ),
+                                SizedBox(width: 10),
+                                Icon(Icons.arrow_right_alt),
+                              ],
+                            ),
+                          ),
+                          SizedBox(height: 30),
+                          ElevatedButton(
+                            onPressed: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) => QuizPage()),
+                              );
+                            },
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.green[700],
+                              padding: EdgeInsets.symmetric(horizontal: 40, vertical: 15),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(15),
+                              ),
+                            ),
+                            child: Row(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                Text(
+                                  'QUIZ',
                                   style: TextStyle(fontSize: 18),
                                 ),
                                 SizedBox(width: 10),

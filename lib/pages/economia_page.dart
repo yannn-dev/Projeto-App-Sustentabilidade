@@ -73,7 +73,7 @@ class EconomiaPage extends StatelessWidget {
                                 'Esse pilar fala sobre o desenvolvimento econômico de forma responsável.\n'
                                     'Ou seja, ganhar dinheiro e crescer sem prejudicar o meio ambiente nem explorar as pessoas.\n'
                                     'Exemplos práticos:\n'
-                                    'Empregos com condições justas de trabalho.\nApoiar negócios que respeitam a natureza.\nIncentivar o consumo consciente.\nSe esse pilar não funciona, há crises econômicas, '
+                                    '- Empregos com condições justas de trabalho.\n- Apoiar negócios que respeitam a natureza.\n- Incentivar o consumo consciente.\nSe esse pilar não funciona, há crises econômicas, '
                                     'desemprego, exploração do trabalho e desperdício de recursos.',
                                 textAlign: TextAlign.justify,
                                 style: TextStyle(

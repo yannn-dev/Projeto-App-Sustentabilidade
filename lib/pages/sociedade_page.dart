@@ -70,9 +70,9 @@ class SociedadePage extends StatelessWidget {
                           Expanded(
                             child: SingleChildScrollView(
                               child: Text(
-                                'O pilar social trata das pessoas e da qualidade de vida.\nEle busca garantir qie todos possuam acesso aos seus direitos\nbásicos, como saúde, educação,'
-                                    'moradia, segurança e respeito.\nExemplos práticos:\nGarantir educação para todos.\nPolíticas para diminuir a pobreza e a desigualdade.\n'
-                                    'Lutar contra o preconceito e a exclusão.\nQuando esse pilar é esquecido, aumentam os problemas sociais, como fome, violência, falta de acesso\na serviços e injustiça.',
+                                'O pilar social trata das pessoas e da qualidade de vida.\nEle busca garantir que todos possuam acesso aos seus direitos\nbásicos, como saúde, educação,'
+                                    ' moradia, segurança e respeito.\nExemplos práticos:\n- Garantir educação para todos.\n- Políticas para diminuir a pobreza e a desigualdade.\n'
+                                    '- Lutar contra o preconceito e a exclusão.\nQuando esse pilar é esquecido, aumentam os problemas sociais, como fome, violência, falta de acesso\na serviços e injustiça.',
                                 textAlign: TextAlign.justify,
                                 style: TextStyle(
                                   color: Colors.white,

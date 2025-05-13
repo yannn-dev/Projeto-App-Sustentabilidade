@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:trabalho_semestral_equipetango/pages/inicial_page.dart';
+import 'package:trabalho_semestral_equipetango/pages/treinamento_sustentavel_page.dart';
 
 class CreditosPage extends StatelessWidget {
   @override
@@ -67,7 +68,7 @@ class CreditosPage extends StatelessWidget {
                             onPressed: () {
                               Navigator.push(
                                 context,
-                                MaterialPageRoute(builder: (context) => InicialPage()),
+                                MaterialPageRoute(builder: (context) => TreinamentoSustentavelPage()),
                               );
                             },
                             style: ElevatedButton.styleFrom(
