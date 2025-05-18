@@ -64,6 +64,15 @@ class CreditosPage extends StatelessWidget {
                             ),
                           ),
                           SizedBox(height: 30),
+                          Image.asset(
+                            'assets/images/Ciencia_da_Computacao.jpg',
+                            width: 250,
+                          ),
+                          Image.asset(
+                            'assets/images/coordenadoria-de-extensao.jpg',
+                            width: 250,
+                          ),
+                          SizedBox(height: 30),
                           ElevatedButton(
                             onPressed: () {
                               Navigator.push(
