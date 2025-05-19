@@ -72,7 +72,9 @@ class SociedadePage extends StatelessWidget {
                               child: Text(
                                 'O pilar social trata das pessoas e da qualidade de vida.\nEle busca garantir que todos possuam acesso aos seus direitos\nbásicos, como saúde, educação,'
                                     ' moradia, segurança e respeito.\nExemplos práticos:\n- Garantir educação para todos.\n- Políticas para diminuir a pobreza e a desigualdade.\n'
-                                    '- Lutar contra o preconceito e a exclusão.\nQuando esse pilar é esquecido, aumentam os problemas sociais, como fome, violência, falta de acesso\na serviços e injustiça.',
+                                    '- Lutar contra o preconceito e a exclusão.\nQuando esse pilar é esquecido, aumentam os problemas sociais, como fome, violência, falta de acesso a serviços e injustiça.'
+                                    ' Esse é um segmento crítico, quando é afetado a frase do filósofo inglês Thomas Hobbes que diz O homem é o lobo do homem, se fundamenta. Nesse caso, ocorre a degradação do desenvolvimento da humanidade. Todos são pessoas, todos  vivem no mesmo planeta, é dever de todos prezar pela boa qualidade de vida dos seres humanos.'
+                                    ' A sustentabilidade valoriza a vida não só de um, mas de todos os seres vivos.\n\n Pense em você, pense no coletivo, cuide das pessoas que desse modo, o planeta sorri! ',
                                 textAlign: TextAlign.justify,
                                 style: TextStyle(
                                   color: Colors.white,

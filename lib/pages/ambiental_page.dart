@@ -73,7 +73,9 @@ class AmbientalPage extends StatelessWidget {
                                 ' Esse pilar está relacionado ao cuidado com a natureza.\n A ideia é usar os recursos naturais (como água, árvores, solo e ar)\ncom responsabilidade,'
                                     'sem destruir o meio ambiente.\nExemplos práticos:\n- Usar energia limpa, como solar e eólica.\n- Reduzir o uso de plásticos e reciclar o lixo.\n'
                                     '- Proteger florestas, rios e animais em extinção.\n Se o pilar ambiental falha, o planeta sofre: vem a poluição, falta de água potável,'
-                                    ' mudanças no clima e perda da biodiversidade.',
+                                    ' mudanças no clima e perda da biodiversidade.\n O planeta em que vivemos é a nossa casa comum, se não cuidamos da nossa casa\n estamos fadados ao esgotamento de nossas dependências.\n'
+                                    'As coisas que usamos nos descreve muito, mas como as descartamos diz muito mais. Não lave sua calçada com a mangueira de água, seja consciente no uso de seus recursos, separe o lixo em reciclado e orgânico.'
+                                    ' Toda ação conta! \n\n Pense no mundo, cuide dele, ele também é seu!',
                                 textAlign: TextAlign.justify,
                                 style: TextStyle(
                                   color: Colors.white,

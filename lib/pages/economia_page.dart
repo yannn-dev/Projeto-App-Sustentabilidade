@@ -74,7 +74,10 @@ class EconomiaPage extends StatelessWidget {
                                     'Ou seja, ganhar dinheiro e crescer sem prejudicar o meio ambiente nem explorar as pessoas.\n'
                                     'Exemplos práticos:\n'
                                     '- Empregos com condições justas de trabalho.\n- Apoiar negócios que respeitam a natureza.\n- Incentivar o consumo consciente.\nSe esse pilar não funciona, há crises econômicas, '
-                                    'desemprego, exploração do trabalho e desperdício de recursos.',
+                                    'desemprego, exploração do trabalho e desperdício de recursos.'
+                                    '\n A economia é um dos fatores que move a humanidade, então é necessário que o progresso econômico não abandone o pensamento sustentável. Sem um lugar para se desenvolver, o desenvolvimento não acontece.'
+                                    ' Se algum dia você possuir uma empresa, pense em como o seu produto será descartado, reflita as suas políticas de trabalho para auxiliar no cuidado sustentável. Mesmo sem ter uma empresa, tente sempre promover o comportamento sustentável nas instituições em que você trabalhe e no seu cotidiano.\n\n'
+                                    ' Use o seu dinheiro para vitalizar a sociedade e o mundo, criar conexões e ajudar o nosso planeta!',
                                 textAlign: TextAlign.justify,
                                 style: TextStyle(
                                   color: Colors.white,
