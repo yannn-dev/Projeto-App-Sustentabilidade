@@ -469,7 +469,7 @@ class _QuizPageState extends State<QuizPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Quiz Sustentável', style: TextStyle(
-        color: Colors.yellow[700],
+        color: Colors.white,
         fontSize: 20,
         fontWeight: FontWeight.bold)),
         flexibleSpace: Container(
