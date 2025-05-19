@@ -54,7 +54,18 @@ class CreditosPage extends StatelessWidget {
                         mainAxisSize: MainAxisSize.min,
                         children: [
                           Text(
-                            'CRÉDITOS\nDesenvolvedores:\nFilipe Pereira Ferraz\nKaique Rabesco Valverde\nRafaela Sanchez\nOrientador:\nDr. Prof. Elvio Gilverto da Silva',
+                            'Disciplina:\nDesenvolvimento de Software',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              color: Colors.yellow[100],
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                              height: 1.5,
+                            ),
+                          ),
+                          SizedBox(height: 30),
+                          Text(
+                            'CRÉDITOS\nDesenvolvedores:\nFilipe Pereira Ferraz\nKaique Rabesco Valverde\nRafaela Sanchez\nOrientador:\nProf. Dr. Elvio Gilberto da Silva',
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               color: Colors.yellow[100],
